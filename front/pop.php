@@ -29,6 +29,8 @@
 </table>
 <div>
 <?php
+
+//分頁功能的設定
 if(($now-1)>0){
     echo "<a href='?do=pop&p=".($now-1)."' > < </a>";
 }
